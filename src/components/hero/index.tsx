@@ -25,11 +25,11 @@ const HeroSection = ({
   description = "Finely crafted components built with React, Tailwind and Shadcn UI. Developers can copy and paste these blocks directly into their project.",
   buttons = {
     primary: {
-      text: "Discover all components",
+      text: "Tüm Hizmetlerimiz",
       url: "https://www.shadcnblocks.com",
     },
     secondary: {
-      text: "View on GitHub",
+      text: "Bize Ulaşın",
       url: "https://www.shadcnblocks.com",
     },
   },
@@ -58,7 +58,11 @@ const HeroSection = ({
                 </Button>
               )}
               {buttons.secondary && (
-                <Button asChild variant="outline" className="w-full sm:w-auto ">
+                <Button
+                  asChild
+                  variant="outline"
+                  className="w-full sm:w-auto bg-secondary"
+                >
                   <a href={buttons.secondary.url}>
                     {buttons.secondary.text}
                     <ArrowRight className="size-4" />
