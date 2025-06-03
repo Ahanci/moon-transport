@@ -54,7 +54,7 @@ interface Navbar1Props {
 const Navbar1 = ({
   logo = {
     url: "https://www.shadcnblocks.com",
-    src: "/logo.png",
+    src: "/newLogo.jpg",
     alt: "logo",
     title: "Ay Taşımacılık",
   },
@@ -143,7 +143,7 @@ const Navbar1 = ({
           <div className="flex items-center gap-6">
             {/* Logo */}
             <a href={logo.url} className="flex items-center gap-2">
-              <img src={"/logo.png"} className="max-h-8" alt={logo.alt} />
+              <img src={"/newLogo.jpg"} className="max-h-8" alt={logo.alt} />
               <span className="text-lg font-semibold tracking-tighter">
                 {logo.title}
               </span>

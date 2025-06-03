@@ -20,7 +20,7 @@ interface Hero1Props {
 }
 
 const HeroSection = ({
-  badge = "✨ Güvenilir ÇÖzüm Ortağını",
+  badge = "✨ Güvenilir Çözüm Ortağını",
   heading = "Zeytinburnu İlçesindeki En İyi Nakilye ve Taşımacılık Hizmeti",
   description = "Finely crafted components built with React, Tailwind and Shadcn UI. Developers can copy and paste these blocks directly into their project.",
   buttons = {
